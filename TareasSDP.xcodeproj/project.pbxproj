@@ -6,14 +6,48 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		39E8CB532F0BE39B00783471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E8CB4F2F0BE39B00783471 /* Assets.xcassets */; };
+		39E8CB542F0BE39B00783471 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8CB502F0BE39B00783471 /* ContentView.swift */; };
+		39E8CBC02F1035B200783471 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 39E8CBBF2F1035B200783471 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		39E8CB412F0BDECD00783471 /* TareasSDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TareasSDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E8CB4F2F0BE39B00783471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39E8CB502F0BE39B00783471 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39E8CBBF2F1035B200783471 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		39E8CB432F0BDECD00783471 /* TareasSDP */ = {
+		39E8CB942F0FB81800783471 /* Model */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TareasSDP;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		39E8CB962F0FB83A00783471 /* System */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = System;
+			sourceTree = "<group>";
+		};
+		39E8CB992F0FB99F00783471 /* ViewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		39E8CBB02F0FD1A300783471 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		39E8CBB52F0FD41B00783471 /* Modifiers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		39E8CBBA2F0FE26600783471 /* Components */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +66,7 @@
 		39E8CB382F0BDECD00783471 = {
 			isa = PBXGroup;
 			children = (
-				39E8CB432F0BDECD00783471 /* TareasSDP */,
+				39E8CB522F0BE39B00783471 /* TareasSDP */,
 				39E8CB422F0BDECD00783471 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +77,22 @@
 				39E8CB412F0BDECD00783471 /* TareasSDP.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		39E8CB522F0BE39B00783471 /* TareasSDP */ = {
+			isa = PBXGroup;
+			children = (
+				39E8CBBA2F0FE26600783471 /* Components */,
+				39E8CBB52F0FD41B00783471 /* Modifiers */,
+				39E8CBB02F0FD1A300783471 /* Views */,
+				39E8CB992F0FB99F00783471 /* ViewModel */,
+				39E8CB942F0FB81800783471 /* Model */,
+				39E8CB962F0FB83A00783471 /* System */,
+				39E8CB502F0BE39B00783471 /* ContentView.swift */,
+				39E8CB4F2F0BE39B00783471 /* Assets.xcassets */,
+				39E8CBBF2F1035B200783471 /* README.md */,
+			);
+			path = TareasSDP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,7 +111,12 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				39E8CB432F0BDECD00783471 /* TareasSDP */,
+				39E8CB942F0FB81800783471 /* Model */,
+				39E8CB962F0FB83A00783471 /* System */,
+				39E8CB992F0FB99F00783471 /* ViewModel */,
+				39E8CBB02F0FD1A300783471 /* Views */,
+				39E8CBB52F0FD41B00783471 /* Modifiers */,
+				39E8CBBA2F0FE26600783471 /* Components */,
 			);
 			name = TareasSDP;
 			packageProductDependencies = (
@@ -109,6 +164,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39E8CBC02F1035B200783471 /* README.md in Resources */,
+				39E8CB532F0BE39B00783471 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39E8CB542F0BE39B00783471 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
