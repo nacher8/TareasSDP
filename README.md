@@ -10,11 +10,21 @@ The app allows users to create tasks with subtasks, mark subtasks as completed, 
 - SwiftUI-based user interface
 - Data persistence powered by SwiftData
 
+## ScreenShots
+<p align="center">
+  <img width="160" hspace="10" src="https://github.com/user-attachments/assets/b38d1dbb-d832-4484-bc74-79749b1129ae" />
+  <img width="160" hspace="10" src="https://github.com/user-attachments/assets/d35452fd-771b-4abd-81e3-d0d1d5951dc5" />
+  <img width="160" hspace="10" src="https://github.com/user-attachments/assets/03045cb0-c9cc-4081-b8cf-cf428b8a6a0d" />
+  <img width="160" hspace="10" src="https://github.com/user-attachments/assets/10945c49-3f97-4fdb-ab77-3d591f2935c7" />
+  <img width="160" hspace="10" src="https://github.com/user-attachments/assets/0a7489df-9171-4023-93ca-98ecbf747517" />
+</p>
+
 ## Getting Started
 
 ### Prerequisites
-- Xcode 26.1.1 or later
-- iOS 26.1 or later
+- **iOS 26+**
+- **Xcode 26+**
+- **Swift 6+**
 
 ### Installation
 1. Clone the repository:
